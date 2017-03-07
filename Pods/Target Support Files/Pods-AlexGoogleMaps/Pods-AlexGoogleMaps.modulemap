@@ -1,0 +1,6 @@
+framework module Pods_AlexGoogleMaps {
+  umbrella header "Pods-AlexGoogleMaps-umbrella.h"
+
+  export *
+  module * { export * }
+}

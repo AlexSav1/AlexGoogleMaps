@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FCC9D52D897BA2F41488987 /* Pods_AlexGoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE69BEF79BE1CC9CAACD89C8 /* Pods_AlexGoogleMaps.framework */; };
+		AA44407E1E6DFC6D000F7136 /* CoolMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44407D1E6DFC6D000F7136 /* CoolMarker.swift */; };
+		AA4440801E6DFF48000F7136 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44407F1E6DFF48000F7136 /* WebViewController.swift */; };
+		AA4440841E6E10A4000F7136 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4440831E6E10A4000F7136 /* DAO.swift */; };
+		AAA287251E6DB9BC00402A43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA287241E6DB9BC00402A43 /* AppDelegate.swift */; };
+		AAA287271E6DB9BC00402A43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA287261E6DB9BC00402A43 /* ViewController.swift */; };
+		AAA2872A1E6DB9BC00402A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA287281E6DB9BC00402A43 /* Main.storyboard */; };
+		AAA2872C1E6DB9BC00402A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA2872B1E6DB9BC00402A43 /* Assets.xcassets */; };
+		AAA2872F1E6DB9BC00402A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA2872D1E6DB9BC00402A43 /* LaunchScreen.storyboard */; };
+		AAA287371E6DC9CE00402A43 /* MyCustomMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA287361E6DC9CE00402A43 /* MyCustomMarker.swift */; };
+		AAA287391E6DC9E500402A43 /* MyCustomMarker.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAA287381E6DC9E500402A43 /* MyCustomMarker.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D6A82428E06DAFAF2332718 /* Pods-AlexGoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexGoogleMaps.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlexGoogleMaps/Pods-AlexGoogleMaps.release.xcconfig"; sourceTree = "<group>"; };
+		AA44407D1E6DFC6D000F7136 /* CoolMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolMarker.swift; sourceTree = "<group>"; };
+		AA44407F1E6DFF48000F7136 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		AA4440831E6E10A4000F7136 /* DAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		AAA287211E6DB9BC00402A43 /* AlexGoogleMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexGoogleMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA287241E6DB9BC00402A43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAA287261E6DB9BC00402A43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAA287291E6DB9BC00402A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAA2872B1E6DB9BC00402A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA2872E1E6DB9BC00402A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAA287301E6DB9BC00402A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA287361E6DC9CE00402A43 /* MyCustomMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomMarker.swift; sourceTree = "<group>"; };
+		AAA287381E6DC9E500402A43 /* MyCustomMarker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomMarker.xib; sourceTree = "<group>"; };
+		EE3D8CDA3C712E81D18DA0FB /* Pods-AlexGoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexGoogleMaps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlexGoogleMaps/Pods-AlexGoogleMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		FE69BEF79BE1CC9CAACD89C8 /* Pods_AlexGoogleMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlexGoogleMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA2871E1E6DB9BC00402A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCC9D52D897BA2F41488987 /* Pods_AlexGoogleMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0B0020C62139C778E40049 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE69BEF79BE1CC9CAACD89C8 /* Pods_AlexGoogleMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A966FFC3DE94B82E062F8867 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D8CDA3C712E81D18DA0FB /* Pods-AlexGoogleMaps.debug.xcconfig */,
+				1D6A82428E06DAFAF2332718 /* Pods-AlexGoogleMaps.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAA287181E6DB9BC00402A43 = {
+			isa = PBXGroup;
+			children = (
+				AAA287231E6DB9BC00402A43 /* AlexGoogleMaps */,
+				AAA287221E6DB9BC00402A43 /* Products */,
+				A966FFC3DE94B82E062F8867 /* Pods */,
+				4D0B0020C62139C778E40049 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA287221E6DB9BC00402A43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA287211E6DB9BC00402A43 /* AlexGoogleMaps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA287231E6DB9BC00402A43 /* AlexGoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				AAA287241E6DB9BC00402A43 /* AppDelegate.swift */,
+				AAA287261E6DB9BC00402A43 /* ViewController.swift */,
+				AA4440831E6E10A4000F7136 /* DAO.swift */,
+				AA44407F1E6DFF48000F7136 /* WebViewController.swift */,
+				AA44407D1E6DFC6D000F7136 /* CoolMarker.swift */,
+				AAA287361E6DC9CE00402A43 /* MyCustomMarker.swift */,
+				AAA287381E6DC9E500402A43 /* MyCustomMarker.xib */,
+				AAA287281E6DB9BC00402A43 /* Main.storyboard */,
+				AAA2872B1E6DB9BC00402A43 /* Assets.xcassets */,
+				AAA2872D1E6DB9BC00402A43 /* LaunchScreen.storyboard */,
+				AAA287301E6DB9BC00402A43 /* Info.plist */,
+			);
+			path = AlexGoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA287201E6DB9BC00402A43 /* AlexGoogleMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA287331E6DB9BC00402A43 /* Build configuration list for PBXNativeTarget "AlexGoogleMaps" */;
+			buildPhases = (
+				3C3F08C28E9BAE435A1233EE /* [CP] Check Pods Manifest.lock */,
+				AAA2871D1E6DB9BC00402A43 /* Sources */,
+				AAA2871E1E6DB9BC00402A43 /* Frameworks */,
+				AAA2871F1E6DB9BC00402A43 /* Resources */,
+				ABDD0E8F585FA3AE62627FE8 /* [CP] Embed Pods Frameworks */,
+				FAAF15414683E5D5D3219AF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlexGoogleMaps;
+			productName = AlexGoogleMaps;
+			productReference = AAA287211E6DB9BC00402A43 /* AlexGoogleMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA287191E6DB9BC00402A43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Aditya Narayan";
+				TargetAttributes = {
+					AAA287201E6DB9BC00402A43 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AAA2871C1E6DB9BC00402A43 /* Build configuration list for PBXProject "AlexGoogleMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA287181E6DB9BC00402A43;
+			productRefGroup = AAA287221E6DB9BC00402A43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA287201E6DB9BC00402A43 /* AlexGoogleMaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA2871F1E6DB9BC00402A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA2872F1E6DB9BC00402A43 /* LaunchScreen.storyboard in Resources */,
+				AAA2872C1E6DB9BC00402A43 /* Assets.xcassets in Resources */,
+				AAA287391E6DC9E500402A43 /* MyCustomMarker.xib in Resources */,
+				AAA2872A1E6DB9BC00402A43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C3F08C28E9BAE435A1233EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABDD0E8F585FA3AE62627FE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlexGoogleMaps/Pods-AlexGoogleMaps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAAF15414683E5D5D3219AF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlexGoogleMaps/Pods-AlexGoogleMaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA2871D1E6DB9BC00402A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4440841E6E10A4000F7136 /* DAO.swift in Sources */,
+				AAA287371E6DC9CE00402A43 /* MyCustomMarker.swift in Sources */,
+				AAA287271E6DB9BC00402A43 /* ViewController.swift in Sources */,
+				AA44407E1E6DFC6D000F7136 /* CoolMarker.swift in Sources */,
+				AA4440801E6DFF48000F7136 /* WebViewController.swift in Sources */,
+				AAA287251E6DB9BC00402A43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAA287281E6DB9BC00402A43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA287291E6DB9BC00402A43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA2872D1E6DB9BC00402A43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA2872E1E6DB9BC00402A43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAA287311E6DB9BC00402A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA287321E6DB9BC00402A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA287341E6DB9BC00402A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3D8CDA3C712E81D18DA0FB /* Pods-AlexGoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlexGoogleMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meehan.AlexGoogleMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AAA287351E6DB9BC00402A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6A82428E06DAFAF2332718 /* Pods-AlexGoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlexGoogleMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meehan.AlexGoogleMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA2871C1E6DB9BC00402A43 /* Build configuration list for PBXProject "AlexGoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA287311E6DB9BC00402A43 /* Debug */,
+				AAA287321E6DB9BC00402A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA287331E6DB9BC00402A43 /* Build configuration list for PBXNativeTarget "AlexGoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA287341E6DB9BC00402A43 /* Debug */,
+				AAA287351E6DB9BC00402A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA287191E6DB9BC00402A43 /* Project object */;
+}
